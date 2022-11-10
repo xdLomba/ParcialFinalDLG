@@ -1,0 +1,366 @@
+
+
+  .bg-2 {
+    background-color:  #c6bf88;
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif Condensed;
+    padding-bottom: 25%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .bg-3 {
+    background-color: #e2e4ed;
+    color: #c6bf88;
+  }
+
+  .bg-4 {
+    background-color: #c6bf88;
+    color: #0d0303;
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+    font-family: times Condensed;
+    text-align: justify;
+  }
+
+
+  .navbar {
+    /*--estilo barra navegador*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: Bold,Lato;
+    letter-spacing: 4px;
+    border-color: transparent;
+    background-color: #04253A;
+    color: #ffffff;
+  }
+.p1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    align-items: center;
+}
+.principal{
+    
+    z-index: auto;
+    margin: 0;
+    grid-column: 3/-1;
+    grid-row: 1/-1;
+    text-align: center;
+}
+  
+.pers{
+   
+    align-self: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    
+    grid-column: 1/3;
+    grid-row: 2/-2;
+}
+
+.p2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    align-items: center;
+}
+
+
+  .carousel-control.right,
+  .carousel-control.left {
+    /*--estilo banner--*/
+    background-image: none;
+    color: #fcfcfc;
+  }
+
+  .carousel-indicators li {
+    border-color: #0b0505;
+  }
+
+  .carousel-indicators li.active {
+    background-color: #ffffff;
+  }
+
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+
+  .item span {
+    font-style: normal;
+  }
+
+.img-carousel {
+    
+    align-items: center;
+}
+
+
+  button {
+    /*--estilo mi boton-->*/
+    border-radius: 10px;
+    background-color: #04253A;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+  }
+  
+
+  
+
+
+
+#lore{
+    background: rgb(255, 255, 255);
+    grid-area:lore ;
+}
+#concept{
+    background: #C6BF88;
+    grid-area: concept;
+}
+.presentacion1{
+    display: grid;
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "bconcept bconcept"
+    
+    
+}
+
+
+
+.pconcept{
+    display: grid;
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "carrusel carrusel textoconcept textoconcept"
+    "carrusel carrusel textoconcept textoconcept"
+}
+#textoconcept{
+    background: #24403B;
+    grid-area: textoconcept;
+    color: #f1f1f1;
+    text-align: justify;
+    font-family: Bold,Lato;
+
+}
+
+
+
+#carrusel{
+    background: #24403B;
+    grid-area: carrusel;
+    color: #fcfcfc;
+}
+.button {
+    
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* tipo de animacion apra el boton*/
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #0995c8; 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #2a0b8e;
+}
+
+.button1:hover { /* cambiar el estilo del boton cuando mouse estat encima del boton */
+    background-color: #051f78;
+    color: #ffffff;
+}
+
+
+.reservados{
+    
+    font-family: "FF Mark W05",Arial,sans-serif;
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #ffffff;
+
+}
+.preservados{
+    margin:0px auto
+}
+
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  /*espaciado texto*/
+  div.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+    font-family: Bold,Lato;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 33%;
+  }
+  
+
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .me{
+    margin-bottom: 30px;
+      width: 50%;
+  }
+
+  .acerca1{
+    
+    z-index: auto;
+    margin: 0;
+    grid-column: 3/-1;
+    grid-row: 1/-1;
+    text-align: center;
+    
+}
+
+.portada1 {
+  /*--configuracion de container principal(imagen)--*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg,
+  #24413b,
+  #072c42);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  /*color y fuente texto*/
+  color: #e9e9f0;
+  font-size: 3.5em;
+}
+
+.portada3d{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg,
+  #24413b,
+  #072c42
+  ), url("Imagenes Personales/Universidad\ de\ San\ Buenaventura2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  /*color y fuente texto*/
+  color: #ffffff;
+  font-size: 3.5em;
+}
+
+
+
+.portadailus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg,
+  rgba(0, 5, 33, 0.7),
+  rgba(0, 9, 54, 0.7)), url("img/ilus.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  /*color y fuente texto*/
+  color: #ffffff;
+  font-size: 3.5em;
+}
+.mb-4{
+  background-color: #e2e4ed;
+}
+
+
+
+
+
+
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #036605;}
+	.social ul li .icon-googleplus {background: #833AB4;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #080808;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
